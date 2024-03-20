@@ -79,7 +79,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 13);
             this.label1.TabIndex = 18;
-            this.label1.Text = "版本：v1.0.2";
+            this.label1.Text = "版本：v1.0.3";
             // 
             // label2
             // 
