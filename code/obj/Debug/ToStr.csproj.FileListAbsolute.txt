@@ -9,3 +9,14 @@ E:\kaifa\project\gitee\ToStr\obj\Debug\ToStr.exe
 E:\kaifa\project\gitee\ToStr\obj\Debug\ToStr.pdb
 E:\kaifa\project\gitee\ToStr\obj\Debug\ToStr.AboutFrm.resources
 E:\kaifa\project\gitee\ToStr\obj\Debug\ToStr.MainFrm.resources
+E:\kaifa\project\gitee\ToStr\code\bin\Debug\ToStr.exe.config
+E:\kaifa\project\gitee\ToStr\code\bin\Debug\ToStr.exe
+E:\kaifa\project\gitee\ToStr\code\bin\Debug\ToStr.pdb
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.csproj.AssemblyReference.cache
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.MainFrm.resources
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.AboutFrm.resources
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.Properties.Resources.resources
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.csproj.GenerateResource.cache
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.csproj.CoreCompileInputs.cache
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.exe
+E:\kaifa\project\gitee\ToStr\code\obj\Debug\ToStr.pdb
