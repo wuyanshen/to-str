@@ -1,12 +1,16 @@
-## 数据库列转逗号分隔字符串小工具
+<div align="center">
+	<img src="./assets/logo.png" width="50" height="50" align="center">
+</div>
+
+<h2 align="center">数据库列转逗号分隔字符串小工具</h2>
+
 
 ### 用法
 
-	1.数据库赋值某一列的值
-	2.双击运行ToStr.exe
-	3.将数据复制到转换前输入框
+	1.双击运行ToStr.exe
+	2.复制数据库某一列的值将数据复制到转换前输入框后点击“转换”
 
-### 预览
+### 效果预览
 	
 <img src="./assets/yulan.png" width="200" height="250">
 
