@@ -40,16 +40,16 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("宋体", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(9, 23);
+            this.label7.Location = new System.Drawing.Point(16, 23);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(310, 13);
+            this.label7.Size = new System.Drawing.Size(268, 13);
             this.label7.TabIndex = 17;
-            this.label7.Text = "⋯♡⋯⋯⋯♡⋯⋯⋯♡⋯⋯⋯♡⋯⋯♡⋯⋯⋯♡⋯⋯⋯♡⋯⋯♡⋯⋯⋯♡⋯⋯⋯♡⋯\r\n";
+            this.label7.Text = "⋯♡⋯⋯⋯♡⋯⋯⋯♡⋯⋯⋯♡⋯⋯♡⋯⋯⋯♡⋯⋯⋯♡⋯⋯♡⋯⋯♡⋯";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(8, 118);
+            this.linkLabel1.Location = new System.Drawing.Point(17, 118);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(279, 15);
             this.linkLabel1.TabIndex = 16;
@@ -62,7 +62,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("宋体", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(12, 51);
+            this.label6.Location = new System.Drawing.Point(16, 51);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(166, 13);
             this.label6.TabIndex = 15;
@@ -73,7 +73,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(12, 73);
+            this.label1.Location = new System.Drawing.Point(16, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 18;
@@ -84,11 +84,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(12, 95);
+            this.label2.Location = new System.Drawing.Point(16, 95);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 13);
             this.label2.TabIndex = 19;
-            this.label2.Text = "author: wuyanshen";
+            this.label2.Text = "Author: wuyanshen";
             // 
             // AboutFrm
             // 
@@ -108,8 +108,9 @@
             this.Name = "AboutFrm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "关于";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

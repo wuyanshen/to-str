@@ -33,11 +33,25 @@ namespace ToStr
             WindowState = FormWindowState.Normal;
         }
 
-
+        /// <summary>
+        /// 关于按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void about_Click(object sender, EventArgs e)
         {
             AboutFrm aboutFrm = new AboutFrm();
             aboutFrm.ShowDialog();
+        }
+
+        /// <summary>
+        /// 退出按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void exist_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
