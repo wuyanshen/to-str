@@ -9,20 +9,22 @@ namespace ToStr
 {
     internal class ToStrHandler
     {
-        public static String toStr(string str) {
-
+        public static String toStr(String str, String packBeforeStr, String packAfterStr, String splitStr=",") {
             String[] charArry = str.Split(new String[] { "\r\n" }, StringSplitOptions.None);
-            Console.WriteLine(charArry);
 
             List<String> list = new List<String>();
             foreach (var item in charArry)
             {
-                list.Add("'"+item+"'");
+                if(packBeforeStr != null && packBeforeStr.Length!=0 && packAfterStr!=null && packAfterStr.Length!=0)
+                {
+                    list.Add(packBeforeStr + item + packAfterStr);
+                } else
+                {
+                    list.Add(item);
+                }
             }
-            String newStr = string.Join(",", list);
-            Console.WriteLine(newStr);
+            String newStr = string.Join(splitStr, list);
             return newStr;
         }
-        
     }
 }

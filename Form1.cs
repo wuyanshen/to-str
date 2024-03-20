@@ -20,8 +20,16 @@ namespace ToStr
         private void button1_Click(object sender, EventArgs e)
         {
             String strBefore = textBefore.Text;
-            String strAfter = ToStrHandler.toStr(strBefore);
+            String packBeforeStr = packBeforeStrText.Text;
+            String packAfterStr = packAfterStrText.Text;
+            String splitStr = splitStrText.Text;
+            String strAfter = ToStrHandler.toStr(strBefore, packBeforeStr, packAfterStr, splitStr);
             textAfter.Text = strAfter;
+        }
+
+        private void about_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
