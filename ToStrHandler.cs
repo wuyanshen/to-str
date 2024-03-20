@@ -11,7 +11,6 @@ namespace ToStr
     {
         public static String toStr(String str, String packBeforeStr, String packAfterStr, String splitStr=",") {
             String[] charArry = str.Split(new String[] { "\r\n" }, StringSplitOptions.None);
-
             List<String> list = new List<String>();
             foreach (var item in charArry)
             {

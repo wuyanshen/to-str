@@ -27,9 +27,17 @@ namespace ToStr
             textAfter.Text = strAfter;
         }
 
+        private void notify_Click(object sender, EventArgs e)
+        {
+            // 显示主窗体(还原窗体form)
+            WindowState = FormWindowState.Normal;
+        }
+
+
         private void about_Click(object sender, EventArgs e)
         {
-
+            AboutFrm aboutFrm = new AboutFrm();
+            aboutFrm.ShowDialog();
         }
     }
 }
