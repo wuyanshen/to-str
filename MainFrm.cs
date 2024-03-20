@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ToStr
 {
-    public partial class Form1 : Form
+    public partial class MainFrm : Form
     {
-        public Form1()
+        public MainFrm()
         {
             InitializeComponent();
         }
@@ -51,7 +51,8 @@ namespace ToStr
         /// <param name="e"></param>
         private void exist_Click(object sender, EventArgs e)
         {
-            this.Close();
+            // 退出应用程序
+            Application.Exit();
         }
     }
 }
