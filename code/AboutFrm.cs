@@ -21,5 +21,10 @@ namespace ToStr
         {
             System.Diagnostics.Process.Start("https://gitee.com/wuyanshen/to-str");
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/wuyanshen/to-str");
+        }
     }
 }

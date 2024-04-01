@@ -11,7 +11,6 @@ namespace ToStr
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
-        [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
@@ -23,7 +22,13 @@ namespace ToStr
         //static void Main()
         //{
         //    String str = "958\r\n881\r\n862\r\n3958\r\n3869\r\n3833";
-        //    ToStrHandler.toStr(str);
+
+        //    //ToStrHandler.toStr(str);
+
+        //    String newStr = "126\t44\t23\t832\t个\t黑色\tiphone14\r\n127\t44\t23\t833\t台\t黑色\t联想ThinkPad";
+
+        //    String ss = ToStrHandler.toStr(newStr, "'", "'");
+        //    Console.WriteLine(ss);
         //}
     }
 }
